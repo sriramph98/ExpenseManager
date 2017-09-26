@@ -24,11 +24,16 @@
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="add"
+
+
+    <com.cuboid.cuboidcirclebutton.CuboidButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:textColor="@android:color/white"
+        android:text="+"
+        android:textSize="40dp"
         android:layout_centerHorizontal="true"
-        android:layout_alignParentBottom="true"/>
+        android:layout_alignParentBottom="true"
+        android:id="@+id/cuboidButton"/>
 
 </RelativeLayout>
